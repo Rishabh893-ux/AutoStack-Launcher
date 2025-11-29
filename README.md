@@ -1,1 +1,16 @@
-# AutoStack-LauncherAutoStack Launcher is a smart automation system designed to simplify the execution of full-stack web applications. The system integrates a backend server, a frontend web interface, and a desktop-based launcher into a single unified platform. With just one click, users can automatically set up dependencies, start servers, monitor real-time logs, and safely shut down all services. This project eliminates manual setup complexity and enhances productivity for developers and students.
+# Travel & Lifestyle Agent - Starter
+
+## Backend
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload --port 8000
+
+## Frontend
+cd frontend
+npm install
+npm run dev
+
+Open http://localhost:3000
+Make sure backend runs at http://localhost:8000
